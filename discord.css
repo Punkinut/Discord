@@ -568,6 +568,11 @@ hr {
 }
 
 @media screen and (max-width: 1000px) {
+
+    .body {
+        overflow-x: hidden;
+    }
+
     .texttab {
         display: none;
     }
@@ -676,6 +681,10 @@ hr {
 }
 
 @media screen and (max-width: 775px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .bgimage .mainimage {
         object-position: 60% 0;
         height: 100%;
@@ -734,7 +743,7 @@ hr {
         flex-direction: column-reverse; 
       }
   
-      .wizardimg {
+     .wizardimg {
           flex-basis: 400px;
           max-width: 100%;
       }
@@ -804,6 +813,18 @@ hr {
 }
 
 @media screen and (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .mushy {
+        display: none;
+    }
+
+    .bgimage .mainimage {
+        object-position: 50% 150%;
+    }
+    
     .pagebottom .signupbutton {
         margin-left: 40%;
      }
@@ -829,7 +850,7 @@ hr {
      }
 
      .bottomtext {
-         font-size: 14px;
+         font-size: 18px;
      }
 
      .titlepage .title {
@@ -839,14 +860,72 @@ hr {
      .titlebutton {
          top: 510;
          right: 0;
+         padding-left: 10px;
+     }
+
+     .titlepage {
+         margin-left: 30px;
+     }
+
+     .froggyimg {
+         flex-basis: 200px;
+         margin-top: 50px;
+     }
+
+     .froggygrid .froggytext {
+         margin-left: 5%;
+         margin-right: 10%;
+     }
+
+     .wizardimg {
+         flex-basis: 200px;
+         margin-top: 20px;
+     }
+
+     .wizardgrid .wizardtext {
+         margin-right: 5%;
+         padding-left: 1%;
+         margin-left: 1%;
+     }
+
+     .graggleimg {
+         flex-basis: 200px;
+         margin-top: 20px;
+     }
+     
+     .bottomtext {
+         font-size: 12px;
+     }
+
+     .footerbackground .footergrid .footerinfo {
+         font-size: 13px;
+     }
+
+     .footerbackground .footergrid .footerinfo2 {
+         font-size: 13px;
      }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
     .titlepage .titlesub {
         font-size: 15px;
     }
 
-    .bgimage .mainimage {
-        object-position: 50% 150%;
+    .wizardgrid {
+        flex-basis: 500px;
+    }
+
+    .titlebutton .tbutton1 {
+        font-size: 15px;
+        height: 40px;
+    }
+
+    .titlebutton .tbutton2 {
+       font-size: 15px;
+       height: 40px;
+   }
+
+   .titlebutton {
+       top: 480px;
+   }
 }
